@@ -30,6 +30,9 @@ import 'moment/locale/ru';
 import viVN from './vi-VN';
 import 'moment/locale/vi';
 
+import koKR from './ko-KR';
+import 'moment/locale/ko';
+
 export default {
   de: deDE,
   en: enUS,
@@ -42,4 +45,5 @@ export default {
   sl: slSI,
   ru: ruRU,
   vi: viVN,
+  ko: koKR,
 };
