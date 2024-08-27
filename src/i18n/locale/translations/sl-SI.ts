@@ -1,13 +1,10 @@
 export default {
-  configuration_app_version: 'Verziaha Aplikacije',
+  configuration_app_version: 'Verzija aplikacije',
   configuration_about: 'O programu',
   configuration_clear_option: 'Počistite in ponastavite aplikacijo',
   configuration_clear_confirm_button: 'Počistite sedaj',
   configuration_clear_alert_title: 'Ali ste prepričani?',
-  configuration_clear_alert_text: 'Brisanje pomnilnika bo izbrisalo:\n'
-    + 'lokalne nastavitve\n'
-    + 'Oauth ID odjemalca & skriti ključ\n'
-    + 'URL naslov do vaše namestitve',
+  configuration_clear_alert_text: 'Brisanje predpomnilnika bo izbrisalo vse podatke iz aplikacije. Ste prepričani, da želite nadaljevati?',
   cancel: 'Prekliči',
   configuration_security: 'Varnost',
   configuration_share_feedback: 'Delite povratne informacije',
@@ -63,8 +60,8 @@ export default {
   navigation_create_tab: 'Izdelaj',
   navigation_transactions_tab: 'Transakcije',
   navigation_settings_tab: 'Nastavitve',
-  transaction_form_type_withdraw: 'Dvig',
-  transaction_form_type_deposit: 'Depozit',
+  transaction_form_type_withdraw: 'Odliv',
+  transaction_form_type_deposit: 'Priliv',
   transaction_form_type_transfer: 'Prenos',
 
   // from 0.4.1
@@ -123,11 +120,39 @@ export default {
   // from 0.10.0
   period: 'Obdobje',
   currency: 'Valuta',
+  
+  home_all_accounts: 'Vsi računi',
+
+  // from 0.10.3
+  router_back_button: 'Nazaj',
+  transaction_clone: 'Kloniraj',
+  transaction_delete: 'Izbriši',
+
+  // from 0.11.0
+  configuration_credentials: 'Prijavni podatki',
+  configuration_manage_credentials: 'Uredi prijavne podatke',
+  configuration_credentials_add_button: 'Dodaj prijavne podatke',
+  logout: 'Odjava',
+
+  // from 0.12.0
+  credential_clear_confirm_button: 'Izbriši',
+  credential_clear_alert_title: 'Ali ste prepričani?',
+  credential_clear_cancel_button: 'Prekliči',
+  go_to_credentials: 'Pojdi na prijavne podatke',
+
+  configuration_logout_alert_title: 'Odjava',
+  load_more: 'Naloži več',
 
   // from X.X.X
+  home_bills: 'Računi',
+  home_piggy_banks: 'Hranilniki',
   bills_paid: 'Plačano do',
   due_by: 'Zapadlost do',
   date_unavailable: 'obvestila',
+  bills_not_expected: 'Ni pričakovano',
+  transaction_form_bill_label: 'Račun',
+  configuration_transaction_form: 'Transakcija od',
+  close_after_transaction: 'Zapri transakcijo po predložitvi',
 
   // from 0.19.0
   configuration_theme: 'Prilagoditev',
